@@ -1,3 +1,237 @@
-*{
-    color:rgb(132, 69, 69);
+:root{
+    --secondary-color: #2196F3;
+}
+
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.logo {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+
+.nav-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.nav-link:hover {
+    color: var(--secondary-color)
+}
+.nav-link:focus {
+    background-color: var(--secondary-color);
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+/* or 136% */
+
+
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+        /* or 136% */
+    
+
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.btn-hero {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 
+}
+
+.sec-hero {
+    height: 600px;
+    width: auto;
+    background-color: #2F303A;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.list-h5 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.p-list {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+
+.sec-2-head {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+
+    color: #212121;    
+}
+
+.head-span {
+    color: var(--secondary-color);
+}
+
+.team-usr {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+/* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+.list_team>li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.2px 0.5px #757575;
+    background-color: #FFFFFF;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+.team-prof {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #757575;   
+}
+
+
+.this-page {
+    color: var(--secondary-color)
+}
+
+.footer-list {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+        /* or 171% */
+    
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.contacts {
+
+    /* width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2300px; */
+    
+    background: #2F303A;
+}
+
+.btn-hero {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+}
+
+.portf-sec1-li {
+    background: #F5F4FA;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    outline: none;
+}
+.contacts {
+    background: #2F303A;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 252px;
+    padding-top: 60px;
+    padding-left: 340px;
+}
+.header_link>a {
+    color: #757575;
 }
