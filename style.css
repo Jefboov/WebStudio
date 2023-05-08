@@ -30,14 +30,14 @@
 }
 
 .logo {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    color: #212121;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #212121;
 }
 
 .logo-web {
@@ -45,14 +45,14 @@
 }
 
 .main-menu {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .main-menu-items {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
 }
 
 .main-menu-item {
@@ -77,11 +77,56 @@
   text-decoration: none;
 }
 
-.main-menu-item:hover, .main-menu-item-contact:hover {
-    color:#2196F3;
-  }
+.main-menu-item:hover,
+.main-menu-item-contact:hover {
+  color: #2196f3;
+}
 
 /*Header styles end*/
+
+/*Promo styles start*/
+.promo {
+  height: 600px;
+  width: auto;
+  background-color: #2f303a;
+  height: 600px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+
+.promo-wrapper {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.promo-wrapper h1 {
+  width: 700px;
+  text-align: center;
+}
+
+.btn-promo {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  width: 216px;
+  height: 50px;
+  margin-top: 30px;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/*Promo styles end*/
 
 h2 {
   display: block;
@@ -114,31 +159,6 @@ h1 {
 
   color: #ffffff;
 }
-
-.btn-hero {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  color: #ffffff;
-  background: #2196f3;
-  box-shadow: none;
-}
-
-.sec-hero {
-  height: 600px;
-  width: auto;
-  background-color: #2f303a;
-  height: 600px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 90px;
-}
-
 .list-h5 {
   font-family: 'Roboto';
   font-weight: 700;
@@ -175,6 +195,18 @@ li {
   letter-spacing: 0.03em;
 
   color: #212121;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list-imges {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .team-usr {
@@ -235,18 +267,6 @@ html {
     top: 2300px; */
 
   background: #2f303a;
-}
-
-.btn-hero {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  color: #ffffff;
-
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .portf-sec1-li {
