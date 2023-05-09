@@ -39,11 +39,22 @@
   text-decoration: none;
   color: #212121;
 }
-
+.logo-footer {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #fffefe;
+}
+.logo-web-footer{
+  color:#2196f3;
+}
 .logo-web {
   color: #2196f3;
 }
-
 .main-menu {
   margin-left: 50px;
 }
@@ -129,20 +140,47 @@
 /*Promo styles end*/
 
 /* Skills styles start*/
-.skills{
+.skills {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
   margin-top: 88px;
   margin-bottom: 94px;
 }
-.skills-list{
+.skills-list {
   display: flex;
   justify-items: center;
   width: 1170px;
   height: 104px;
 }
 /*Skills styles end*/
+
+/*Team styles start*/
+.team-h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.team-cards {
+  width: 1170px;
+  margin: 0 auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.our-team {
+  background-color: #f5f4fa;
+  padding: 94px 0;
+  margin: 0;
+  margin-top: 94px;
+}
+/*Team styles end*/
 h2 {
   display: block;
   font-size: 1.5em;
@@ -308,3 +346,27 @@ html {
 .header_link > a {
   color: #757575;
 }
+/*Footer styles start*/
+.team-cards li {
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.team-members h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  align-items:center
+  color #212121;
+}
+
+.team-members p {
+  font-weight: 400;
+  line-height: 19px;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/*Footer styles end*/
