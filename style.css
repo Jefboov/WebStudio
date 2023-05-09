@@ -253,14 +253,16 @@ h2{
 /*Team styles end*/
 
 /*Footer styles start*/
-.contacts {
+footer{
   background: #2f303a;
   display: flex;
+  justify-content: center;
+}
+.contacts {
+  width: 1140px;
   flex-direction: column;
-  width: auto;
   height: 252px;
   padding-top: 60px;
-  padding-left: 340px;
   justify-content: center;
 }
 .logo-footer {
@@ -275,7 +277,7 @@ h2{
 }
 .logo-footer h2 {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .logo-web-footer {
   color: #2196f3;
