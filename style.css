@@ -30,21 +30,19 @@ h2{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 310px;
+  width: 350px;
 }
 
 .logo {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 2em;
   line-height: 31px;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #212121;
 }
-
-
 .logo-web {
   color: #2196f3;
 }
@@ -71,6 +69,8 @@ h2{
 }
 
 .main-menu-item-contact {
+  display: flex;
+  align-items:center;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -81,23 +81,36 @@ h2{
   text-decoration: none;
 }
 
-.main-menu-item:hover,
-.main-menu-item-contact:hover {
+.main-menu-item:hover{
   color: #2196f3;
 }
+.main-menu-item-contact:hover {
+  color: #2196f3;
+
+}
+.vector-contacts{
+  margin: 0 10px 0 30px;
+
+}
+.envelope-contacts{
+  margin-right: 10px;
+
+}
+
 
 /*Header styles end*/
 
 /*Promo styles start*/
 .promo {
-  height: 600px;
-  width: auto;
-  background-color: #2f303a;
-  height: 600px;
-  margin: 0 auto;
-  margin-bottom: 90px;
-}
+  background-image: url(/img/promo.jpg);
+  background-position: center;
 
+  background-repeat: no-repeat;
+  height: auto;
+  width: auto;
+  background-size: auto;
+  object-fit: contain
+}
 .promo-wrapper {
   height: 600px;
   display: flex;
@@ -111,7 +124,7 @@ h2{
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
-  font-size: 44px;
+  font-size: 2.75em;
   line-height: 60px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -122,7 +135,7 @@ h2{
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1em;
   line-height: 30px;
   width: 216px;
   height: 50px;
@@ -143,7 +156,7 @@ h2{
   align-items: center;
   justify-content: center;
   margin-top: 88px;
-  margin-bottom: 94px;
+
 }
 .skills-list {
   display: flex;
@@ -154,16 +167,17 @@ h2{
 .list-h5 {
   font-family: 'Roboto';
   font-weight: 700;
-  font-size: 14px;
+  font-size: 1em;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin-bottom: 10px;
 }
 .p-list {
   font-family: 'Roboto';
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875em;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
@@ -298,3 +312,81 @@ footer{
   color: rgba(255, 255, 255, 0.6);
 }
 /*Footer styles end*/
+
+/*Portfolio html starts*/
+
+/*Header styles in portfolio starts*/
+.header-block-portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo-nav-portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-contacts-portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 310px;
+}
+
+.logo-portfolio {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #212121;
+}
+
+
+.logo-web-portfolio {
+  color: #2196f3;
+}
+.main-menu-portfolio {
+  margin-left: 50px;
+}
+
+.main-menu-items-portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+}
+
+
+.main-menu-item-portfolio {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+
+.main-menu-item-contact-portfolio {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+
+.main-menu-item-portfolio:hover,
+.main-menu-item-contact-portfolio:hover {
+  color: #2196f3;
+}
+/*Header styles in portfolio end*/
+
+/*Portfolio html end*/
