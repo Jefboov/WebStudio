@@ -156,14 +156,19 @@ h2{
   align-items: center;
   justify-content: center;
   margin-top: 88px;
-
 }
 .skills-list {
   display: flex;
   justify-items: center;
   width: 1170px;
-  height: 104px;
+  height: 248px;
+  margin-bottom: 94px;
+  border-radius: 4px;
 }
+.skills-list-img{
+  margin: 30px 30px 30px 0;
+}
+
 .list-h5 {
   font-family: 'Roboto';
   font-weight: 700;
@@ -176,9 +181,12 @@ h2{
 }
 .p-list {
   font-family: 'Roboto';
+  font-style: normal;
   font-weight: 400;
-  font-size: 0.875em;
+  font-size: 14px;
   line-height: 24px;
+  /* or 171% */
+  
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -263,6 +271,9 @@ h2{
 
   color: #757575;
   margin-top: 10px;
+}
+.team-card:hover {
+  transform: scale(1.05);
 }
 /*Team styles end*/
 
@@ -388,5 +399,21 @@ footer{
   color: #2196f3;
 }
 /*Header styles in portfolio end*/
+.buttons-prom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.portf-sec1-li{
+  background: #F5F4FA;
+  border-radius: 4px;
+}
+.photo-list{
 
+}
+.photo-list-one{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
 /*Portfolio html end*/
