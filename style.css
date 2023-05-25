@@ -243,6 +243,7 @@ h2{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: transform 0.4s ease-in-out;
 }
 
 .team-info {
@@ -273,7 +274,9 @@ h2{
   margin-top: 10px;
 }
 .team-card:hover {
-  transform: scale(1.05);
+  transform: translate3d(2px,5px,-2px);
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.2s ease-out;
 }
 /*Team styles end*/
 
