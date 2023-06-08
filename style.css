@@ -1,8 +1,7 @@
-
 :root {
   --animate-duration: 1s;
   --animate-delay: 1s;
-  --animate-repeat: 1
+  --animate-repeat: 1;
 }
 .animate__pulse {
   -webkit-animation-name: pulse;
@@ -23,7 +22,7 @@
   margin: auto;
 }
 
-h2{
+h2 {
   display: block;
   font-size: 1.5em;
   margin-block-start: 0.83em;
@@ -53,7 +52,7 @@ h2{
 }
 
 .logo {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 2em;
@@ -67,7 +66,7 @@ h2{
 }
 .main-menu {
   margin-left: 43px;
-  list-style-type:none;
+  list-style-type: none;
 }
 
 .main-menu-items {
@@ -78,7 +77,7 @@ h2{
 }
 
 .main-menu-item {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -91,8 +90,8 @@ h2{
 
 .main-menu-item-contact {
   display: flex;
-  align-items:center;
-  font-family: 'Roboto';
+  align-items: center;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -102,28 +101,26 @@ h2{
   text-decoration: none;
 }
 
-.main-menu-item:hover{
+.main-menu-item:hover {
   color: #2196f3;
 }
 .main-menu-item-contact:hover {
   color: #2196f3;
 }
-svg path:hover{
-  fill:#2196F3;
+svg path:hover {
+  fill: #2196f3;
 }
-.vector-contacts{
+.vector-contacts {
   margin: 0 10px 0 30px;
-
 }
-.envelope-contacts{
-  margin-right: 10px;;
+.envelope-contacts {
+  margin-right: 10px;
 }
-.work_list{
+.work_list {
   display: flex;
-  list-style-type:none;
-  align-items:center;
+  list-style-type: none;
+  align-items: center;
   justify-content: center;
-
 }
 /*Header styles end*/
 
@@ -136,7 +133,7 @@ svg path:hover{
   height: auto;
   width: auto;
   background-size: auto;
-  object-fit: contain
+  object-fit: contain;
 }
 .promo-wrapper {
   height: 600px;
@@ -148,7 +145,7 @@ svg path:hover{
 .promo-wrapper h1 {
   width: 700px;
   text-align: center;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 2.75em;
@@ -159,7 +156,7 @@ svg path:hover{
 }
 
 .btn-promo {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 1em;
@@ -192,7 +189,7 @@ svg path:hover{
   margin-bottom: 94px;
   border-radius: 4px;
 }
-.skills-list-imgs{
+.skills-list-imgs {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -201,18 +198,18 @@ svg path:hover{
   height: 120px;
   margin-bottom: 30px;
 }
-.skills-list-1{
+.skills-list-1 {
   width: 270px;
   height: 248px;
   margin-left: 30px;
 }
-.skills-list-img-vector{
+.skills-list-img-vector {
   display: block;
   padding: 25px 100px;
   width: 100%;
 }
 .list-h5 {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 1em;
   line-height: 16px;
@@ -222,13 +219,13 @@ svg path:hover{
   margin-bottom: 10px;
 }
 .p-list {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   /* or 171% */
-  
+
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -237,7 +234,7 @@ svg path:hover{
 /*About styles start*/
 .about-us h2 {
   text-align: center;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -263,21 +260,19 @@ svg path:hover{
   margin-top: 94px;
 }
 .our-team h2 {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  
+
   margin-top: 0;
   color: #212121;
 }
 .team-cards li {
   background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .team-cards {
   width: 1170px;
@@ -287,14 +282,24 @@ svg path:hover{
   align-items: center;
   transition: transform 0.4s ease-in-out;
 }
+.team-card {
+  width: 270px;
+  height: 428px;
 
+  background: #ffffff;
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
 .team-info {
   text-align: center;
   margin: 30px 0px 30px 0px;
 }
 
 .team-info h3 {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -305,7 +310,7 @@ svg path:hover{
 }
 
 .team-info p {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -322,37 +327,28 @@ svg path:hover{
 }
 
 /*Team styles end*/
-.container-our-clients{
-  width: 1600px;
-  height: 372px;
-  
-  
+.container-our-clients {
+  margin:94px 0 94px 0 ;
 }
-.our-clients{
+.our-clients {
   display: flex;
   justify-content: center;
-  align-items:center;
-  width: 1600px;
-  height: 184px;
-}
-.our-clients h1{
-  position: absolute;
-width: 297px;
-height: 42px;
-left: 653px;
-top: 2398px;
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em;
+  margin-top: 50px;
 
-color: #212121;
+}
+.container-our-clients h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  
+  color: #212121;
 }
 /*Footer styles start*/
-footer{
+footer {
   background: #2f303a;
   display: flex;
   justify-content: center;
@@ -365,7 +361,7 @@ footer{
   justify-content: center;
 }
 .logo-footer {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -382,7 +378,7 @@ footer{
   color: #2196f3;
 }
 .list-footer-list {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -420,7 +416,7 @@ footer{
 }
 
 .logo-portfolio {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -430,7 +426,6 @@ footer{
   color: #212121;
 }
 
-
 .logo-web-portfolio {
   color: #2196f3;
 }
@@ -438,7 +433,7 @@ footer{
   margin-left: 50px;
 }
 .main-menu-item-portfolio {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -449,7 +444,7 @@ footer{
 }
 
 .main-menu-item-contact-portfolio {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -464,128 +459,103 @@ footer{
   color: #2196f3;
 }
 /*Header styles in portfolio end*/
-.buttons-prom{
+.buttons-prom {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.portf-sec1-li{
-  background: #F5F4FA;
+.portf-sec1-li {
+  background: #f5f4fa;
   border-radius: 4px;
-  border-color: #F5F4FA;
-  box-shadow:none;
-  
+  border-color: #f5f4fa;
+  box-shadow: none;
 }
-.photo-list-one{
+.photo-list-one {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: space-between;
 }
-.buttons-prom{
+.buttons-prom {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 8px;
-  list-style-type:none;
+  list-style-type: none;
 }
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
-  list-style-type:none;
+  list-style-type: none;
   width: 130px;
   height: 38px;
-  
 }
-.portf-sec1-li{
+.portf-sec1-li {
   font-family: "Roboto";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    margin: 8px;
-    color: #ffffff;
-    background-color: #2196f3;
-    border-radius: 4px;
-    padding: 10px 32px;
-    border: 0;
-    animation: pulse 2s 3s infinite;
-    cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin: 8px;
+  color: #ffffff;
+  background-color: #2196f3;
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: 0;
+  animation: pulse 2s 3s infinite;
+  cursor: pointer;
 }
 /*Portfolio html end*/
-.our-clients-list{
+.our-clients-list {
+  width: 1170px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items:center;
-  width: 1600px;
-
-  height: 184px;
-  
-}
-.our-clients-list div{
-  display: flex;
-  align-items:center;
-  justify-content: center;
-  box-sizing: border-box;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  height: 92px;
 }
 .client{
-  background-color: transparent;
-  position: absolute;
   width: 170px;
   height: 92px;
-  left: 215px;
-  top: 2490px;
-
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
 }
-.client1{
-  background-color: transparent;
-  position: absolute;
-  width: 170px;
-  height: 92px;
-  left: 415px;
-  top: 2490px;
-}
-.client2{
-  background-color: transparent;
-  position: absolute;
-  width: 170px;
-  height: 92px;
-  left: 615px;
-  top: 2490px;
-}
-.client3{
-  background-color: transparent;
-  position: absolute;
-  width: 170px;
-  height: 92px;
-  left: 815px;
-  top: 2490px;
-}
-.client4{
-  background-color: transparent;
-  position: absolute;
-  width: 170px;
-  height: 92px;
-  left: 1015px;
-  top: 2490px;
-}
-.client5{
-  background-color: transparent;
-  position: absolute;
-  width: 170px;
-  height: 92px;
-  left: 1215px;
-  top: 2490px;
-}
-.elipse{
+.client-block{
   display: flex;
   justify-content: center;
   align-items:center;
+  width: 170px;
+  height: 92px;
 }
+.client-block a {
+  height:60px;
+  justify-content: center;
+  align-items:center;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 32px 354px 30px;
+  cursor: pointer;
+}
+.team-social-icons>a{
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  background:#ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-social-icons a:hover,
+.team-social-icons a:hover path {
+  background-color: #2196f3;
+  fill: #ffffff;
+}
+a {
+  background-color: transparent;
+}
+
