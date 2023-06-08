@@ -13,7 +13,9 @@
     rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="/node_modules/animate.css/animate.min.css">
   <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -28,7 +30,7 @@
             </h2>
           </a>
           <nav class="main-menu">
-            <ul class="main-menu-items">
+            <ul class="work_list">
               <li><a class="main-menu-item" href="/">Студія</a></li>
               <li><a class="main-menu-item" href="./portfolio.html">Портфоліо</a></li>
               <li><a class="main-menu-item" href="/">Контакти</a></li>
@@ -54,42 +56,42 @@
     <section class="promo">
       <div class="promo-wrapper">
         <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button class="btn-promo" type="button">Замовити послугу</button>
+        <button class="btn-promo animate__animated animate__pulse" type="button">Замовити послугу</button>
       </div>
     </section>
     <section class="skills">
       <div class="skills-block">
         <ul class="skills-list">
           <li class="skills-list-1">
-            <div class="skills-list-img">
-              <img src="./img/Group1.jpg" alt="Group1">
+            <div class="skills-list-imgs">
+              <img class="skills-list-img-vector" src="./icons/antenna.svg" alt="antenna">
             </div>
             <h5 class="list-h5">УВАГА ДО ДЕТАЛЕЙ</h5>
             <p class="p-list">
               Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
             </p>
           </li>
-          <li class="skills-list-2">
-            <div class="skills-list-img">
-              <img src="./img/Group2.jpg" alt="Group2">
+          <li class="skills-list-1">
+            <div class="skills-list-imgs">
+              <img class="skills-list-img-vector" src="./icons/clock.svg" alt="clock">
             </div>
             <h5 class="list-h5">ПУНКТУАЛЬНІСТЬ</h5>
             <p class="p-list">
               Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
             </p>
           </li>
-          <li class="skills-list-3">
-            <div class="skills-list-img">
-              <img src="./img/Group3.jpg" alt="Group3">
+          <li class="skills-list-1">
+            <div class="skills-list-imgs">
+              <img class="skills-list-img-vector" src="./icons/diagram.svg" alt="diagram">
             </div>
             <h5 class="list-h5">ПЛАНУВАННЯ</h5>
             <p class="p-list">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li class="skills-list-4">
-            <div class="skills-list-img">
-              <img src="./img/Group4.jpg" alt="Group4">
+          <li class="skills-list-1">
+            <div class="skills-list-imgs">
+              <img class="skills-list-img-vector" src="./icons/astronaut.svg" alt="astronaut">
             </div>
             <h5 class="list-h5">СУЧАСНІ ТЕХНОЛОГІЇ</h5>
             <p class="p-list">
@@ -113,37 +115,39 @@
         </li>
       </ul>
     </section>
-    <section class="our-team">
+    <section class="our-team ">
       <h2>Наша команда</h2>
-      <ul class="team-cards">
-        <li class="team-card">
-          <img src="./img/igor1.jpg" alt="працівник ігор" width="270" height="260">
-          <div class="team-info">
-            <h3>Ігор Дем'яненко</h3>
-            <p class="team-position" lang="en">Product Designer</p>
-          </div>
-        </li>
-        <li class="team-card">
-          <img src="./img/olga1.jpg" alt="працівник ольга" width="270" height="260">
-          <div class="team-info">
-            <h3>Ольга Рєпіна</h3>
-            <p class="team-position" lang="en">Frontend Developer</p>
-          </div>
-        </li>
-        <li class="team-card">
-          <img src="./img/micola1.jpg" alt="працівник микола" width="270" height="260">
-          <div class="team-info">
-            <h3>Микола Тарасов</h3>
-            <p class="team-position" lang="en">Marketing</p>
-          </div>
-        </li>
-        <li class="team-card">
-          <img src="./img/misha1.jpg" alt="працівник міша" width="270" height="260">
-          <div class="team-info">
-            <h3>Михайло Єрмаков</h3>
-            <p class="team-position" lang="en">UI Designer</p>
-          </div>
-        </li>
+      <ul class="team-cards animate__animated animate__flipInX animate__slow">
+        
+          <li class="team-card">
+            <img src="./img/igor1.jpg" alt="працівник ігор" width="270" height="260">
+            <div class="team-info">
+              <h3>Ігор Дем'яненко</h3>
+              <p class="team-position" lang="en">Product Designer</p>
+            </div>
+          </li>
+          <li class="team-card">
+            <img src="./img/olga1.jpg" alt="працівник ольга" width="270" height="260">
+            <div class="team-info">
+              <h3>Ольга Рєпіна</h3>
+              <p class="team-position" lang="en">Frontend Developer</p>
+            </div>
+          </li>
+          <li class="team-card">
+            <img src="./img/micola1.jpg" alt="працівник микола" width="270" height="260">
+            <div class="team-info">
+              <h3>Микола Тарасов</h3>
+              <p class="team-position" lang="en">Marketing</p>
+            </div>
+          </li>
+          <li class="team-card">
+            <img src="./img/misha1.jpg" alt="працівник міша" width="270" height="260">
+            <div class="team-info">
+              <h3>Михайло Єрмаков</h3>
+              <p class="team-position" lang="en">UI Designer</p>
+            </div>
+          </li>
+      
       </ul>
     </section>
   </main>
