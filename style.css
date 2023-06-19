@@ -558,4 +558,51 @@ footer {
 a {
   background-color: transparent;
 }
+.client-block a:hover,
+.client-block a:hover path {
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+.social{
+  position: absolute;
+  width: 206px;
+  height: 80px;
+  left: 516px;
+  top: 2779px;
+  margin-top: ;
+}
+.social-ul{
+  display: flex;
+  align-items:center;
+  margin: 20px 0 100px 0;
+}
+.social-li{
+  margin-right: 10px;
+}
+.social-div h3{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+  
+}
+.social-block>a{
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-block a:hover,
+.social-block a:hover path {
+  background-color: #2196f3;
+  fill: #ffffff;
+}
 
